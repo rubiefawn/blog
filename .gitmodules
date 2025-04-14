@@ -1,3 +1,9 @@
 [submodule "themes/hugo-bearblog"]
 	path = themes/hugo-bearblog
 	url = https://github.com/janraasch/hugo-bearblog.git
+[submodule "vendor/saffron"]
+	path = vendor/saffron
+	url = https://github.com/rubiefawn/saffron
+[submodule "assets/saffron"]
+	path = assets/saffron
+	url = https://github.com/rubiefawn/saffron
