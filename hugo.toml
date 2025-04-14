@@ -22,6 +22,10 @@ ignoreErrors = ["error-disable-taxonomy"]
 [markup.highlight]
 style = 'github-dark'
 
+[cache]
+[cache.images]
+dir = ':cacheDir/images'
+
 [permalinks]
 blog = "/:slug/"
 tags = "/blog/:slug"
