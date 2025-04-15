@@ -33,6 +33,12 @@ body> :where(main, header, footer) {
 	margin-block-end: 0;
 }
 
+:where(h1, h2, h3, h4, h5, h6) {
+	font-family: var(--font-stack-display);
+	font-weight: 800;
+	letter-spacing: -2%;
+}
+
 body>header {
 	padding-block-start: var(--lg-rem);
 }
@@ -80,6 +86,10 @@ ul.blog-posts li {
 
 ul.blog-posts li span {
 	flex: 0 0 130px;
+}
+
+.blog-posts time {
+	font-style: normal;
 }
 
 /* Keep the media query as simple as possible */
