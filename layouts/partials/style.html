@@ -16,15 +16,43 @@
 :root {
 	--theme-font-sans-serif: "Atkinson Hyperlegible Next";
 	--theme-font-monospace: "B612 Mono";
+	font-size: var(--lg1-rem);
 	font-family: var(--font-stack-sans-serif);
-	font-size: var(--lg1-em);
 }
 
 /* TODO: Fix this nonsense in saffron */
-body> :where(header) {
+body> :where(main, header, footer) {
   margin: 0 auto;
   padding: var(--zs-rem);
-  max-width: 80ch;
+  max-width: 82ch;
+}
+
+/* TODO: Also fix this, rubiefawn/saffron#2 */
+:is(ol, ul) :is(ol, ul) {
+	margin-block-end: 0;
+}
+
+body>header {
+	padding-block-start: var(--lg-rem);
+}
+
+/* TODO: Figure out a better oklch color for light theme */
+:where(a, a:visited) {
+	font-weight: bold;
+	color: light-dark(var(--col-blue0), var(--col-blue1));
+	text-decoration: none;
+}
+
+header>nav>a {
+	text-transform: lowercase;
+}
+
+header>nav>a::before {
+	content: '/'
+}
+
+header>nav>a:not(:last-child) {
+	margin-inline-end: 1ch;
 }
 
 .title {
@@ -53,8 +81,5 @@ ul.blog-posts li span {
 	flex: 0 0 130px;
 }
 
-ul.blog-posts li a:visited {
-	color: var(--visited-color);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 </style>
