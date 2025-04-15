@@ -5,7 +5,7 @@
 title = "home"
 +++
 
-Just a silly gal doing silly things. I like music and telling stories, both of which are better with friends~ 💞
+Just a silly gal doing silly things! I like music and telling stories, both of which are better with friends~ 💞
 
 - 🎲 [Remedy](https://remedy.neonfable.com): A tabletop roleplaying game, part of the [New School Revolution](https://boneboxchant.wordpress.com/2019/12/21/nsr/).
 - 📻 [UNWISH](https://www.youtube.com/@UNWISH): I write tunes occasionally; [see what's cooking! 🤫](https://sketches.frogify.net)
