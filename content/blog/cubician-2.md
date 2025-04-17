@@ -15,13 +15,13 @@ This short album is entirely old music that I have taken time to polish up. Here
 
 ## [Liquid Starlight](https://iansannar.bandcamp.com/track/liquid-starlight)
 
-*Liquid Starlight* was originally uploaded to my old Soundcloud on 2014-03-01 (over a decade ago!). I originally created all the synthesizer sounds using ZynAddSubFX in LMMS, with liberal use of a specific parameter that allowed for randomization of different wave harmonics per-note. The version of ZynAddSubFX embedded in LMMS has the most convoluted user interface I have ever laid eyes on, so I have no idea how to replicate this. I will update this post if I ever do.
+*Liquid Starlight* was originally uploaded to my old Soundcloud on 2014-03-01 (over a decade ago!). I originally created all the synthesizer sounds using ZynAddSubFX in LMMS, with liberal use of a specific parameter that allowed for randomization of different wave harmonics per-note. This helped each note sound slightly different, which helped the synth sound like water droplets. The version of ZynAddSubFX embedded in LMMS has the most convoluted user interface I have ever laid eyes on, so I have no idea how to replicate this. I will update this post if I ever do.
 
 If you dare, you can listen to an archive of that [old version](https://on.soundcloud.com/CTeewPBPhQWm2hV39) on Soundcloud.
 
 ## [Cured More than The Malady](https://iansannar.bandcamp.com/track/cured-more-than-the-malady)
 
-This song was originally released on YouTube on 2017-08-29. At the time, I was deeply unhappy with my character, and was trying to fix myself using religion. This approach was deeply flawed, and in an attempt to "cure" all my flaws, I ended up rejecting my entire identity instead. When I initially released the song, I understood that this was harmful, but thought that it was necessary for my personal growth, spiritual salvation, et cetera. Of course, that was all total nonsense, and after living like that for three years, I came to my senses and realized how unhealthy that mindset was. I accept and love myself.
+This song was originally released on YouTube on 2017-08-29. At the time, I was deeply unhappy with my character, and was trying to fix myself using religion. This approach was deeply flawed, and in an attempt to "cure" all my flaws, I ended up rejecting my entire identity instead. When I initially released the song, I understood that this was harmful, but thought that it was necessary for my personal growth, spiritual salvation, et cetera. Of course, that was all total nonsense, and after living like that for three years, I came to my senses and realized how unhealthy that mindset was. There is no "cure", only empathy and hard work. I accept and love myself.
 
 The [original YouTube upload](https://youtu.be/MUi-GRBpsGw) is available, but unlisted.
 
