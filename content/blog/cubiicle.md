@@ -1,7 +1,6 @@
 +++
 title = "cubiicle"
-date = "2025-04-17T14:12:28-06:00"
-draft = true
+date = "2025-04-23T15:56:28-06:00"
 description = "What happened to Cubiicle?"
 tags = ["cubician","music","music production"]
 +++
@@ -14,6 +13,6 @@ On 2014-05-28, I released [*Platinum*](https://soundcloud.com/cubician/platinum)
 
 # Reborn
 
-Some time in early 2015, Cubiicle released *Reborn* on Soundcloud. On On 2015-05-23, It earned a place in the Best of LMMS Vol. 2 contest, which is available on [Bandcamp](https://lmms.bandcamp.com/track/reborn). At the time, I was using the alias "Whispir", which is now in use by someone else. Since Cubiicle deleted their Soundcloud account, Best of LMMS Vol. 2 is the only place where this song still lives.
+Some time in early 2015, Cubiicle released *Reborn* on Soundcloud. On On 2015-05-23, It earned a place in the Best of LMMS Vol. 2 contest, which is available on [Bandcamp](https://lmms.bandcamp.com/track/reborn). At the time, I was using the alias "Whispir", which is now in use by someone else (and, like, some corporation as well, lol). Since Cubiicle deleted their Soundcloud account, Best of LMMS Vol. 2 is the only place where this song still lives.
 
 I hope you're doing well, friend.
