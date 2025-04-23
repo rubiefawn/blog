@@ -1,7 +1,6 @@
 +++
-title = "cubiicle"
+title = "What happened to Cubiicle?"
 date = "2025-04-23T15:56:28-06:00"
-description = "What happened to Cubiicle?"
 tags = ["cubician","music","music production"]
 +++
 
