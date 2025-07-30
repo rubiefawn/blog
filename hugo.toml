@@ -24,6 +24,9 @@ ignoreErrors = ["error-disable-taxonomy"]
 [markup.highlight]
 style = 'base16-snazzy'
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [cache]
 [cache.images]
 dir = ':cacheDir/images'
