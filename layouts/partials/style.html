@@ -51,6 +51,11 @@ code {
 	-webkit-text-size-adjust: 100%;
 }
 
+/* Fix missing horizontal scrollbar on iOS, see https://github.com/gohugoio/hugo/issues/7326 */
+.highlight :where(div, pre) {
+	overflow-x: auto;
+}
+
 body>header {
 	padding-block-start: var(--lg-rem);
 }

@@ -8,7 +8,7 @@ This post chronicles the background and rationale for my amateur development of 
 
 # Inception
 
-Back in 2013, I was playing around with a demo copy of Native Instruments FM8. I found an interesting family of sounds produced by modulating a sine wave with one of the "formant" waveforms pitched several octaves down. The problem with FM8 is that each of these "formant" waveforms are discrete, and I wanted to blend between them. Also FM8 costs money, and I was a literal child with no income. lmao.
+Back in 2013, I was playing around with a demo copy of Native Instruments FM8. I found an interesting family of sounds produced by modulating a sine wave with one of the "Nth Formant" waveforms pitched several octaves down. The problem with FM8 is that each of these formant waveforms are discrete, and I wanted to blend between them. Also FM8 costs money, and I was a literal child with no income. lmao.
 
 I got my hands on a less-than-legal copy of the now defunct Flowstone (identical to FL Studio's [SynthMaker](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Synthmaker.htm)) and used it to make a really horrible 32-bit VST2 plugin named "Karnoid". Unfortunately, I can't find the exported VST2, nor do I have the Flowstone project file (and even if I did, Flowstone doesn't seem to exist anymore, so I'm not sure how I would even open it).
 
@@ -74,10 +74,12 @@ float circle_wave2(float x) {
   return p >= 0 ? sqrtf(p) : -sqrtf(-p);
 }
 
-// This "mouth" waveform is inspired by the "formant" family of
-// waveforms available in Native Instruments' FM8. This version uses
-// a sine wave as its base, but it also sounds neat when using triangle
-// or parabol instead.
+// This "mouth" waveform is inspired by the "Nth Formant" family of
+// waveforms available in Native Instruments' FM8. It's much cleaner
+// than FM8's versions of these waveforms, though that may not be
+// a desirable characteristic.
+// This version uses a sine wave as its base, but it also sounds neat
+// when using triangle or parabol instead.
 // The "sync" parameter increases the base frequency of the sine wave,
 // but the overall period of the waveform is maintained by multiplying
 // it by an inverted sawtooth wave.
@@ -93,15 +95,15 @@ Five years later, after gaining some very rudimentary experience with C++, I dec
 This verison of synchro introduced some additional tools, namely some more flexibility with the "mouth" wave shape and some saturation. It also uses the "mouth" wave shape for both oscillators:
 
 ```c
-// This "mouth" waveform is inspired by the "formant" family of
+// This "mouth" waveform is inspired by the "Nth Formant" family of
 // waveforms available in Native Instruments' FM8. This version uses
 // a triangle wave as its base instead of a sine wave.
 // The "sync" parameter increases the base frequency of the sine wave,
-// but the overall period of the waveform is maintained by forcing the
-// amplitude to decay to 0 each period.
-// The rate at which this decay occurs is controlled by the "pulse"
-// parameter, where 0 is no decay, 1 is linear decay, and higher values
-// result in exponential decay.
+// but the overall period of the waveform is maintained through hard
+// sync (the phase is reset to 0 at the start of each period).
+// The "pulse" parameter introduces amplitude decay over the span of
+// each waveform period. At 0, there is no decay; at 1, the amplitude
+// decays linearly; higher values result in steeper exponential decay.
 // The "drive" parameter introduces saturation. This is included within
 // this function, since the drive happens before the "pulse" decay in
 // order to preserve the effect of the "pulse" decay. Low values of 
@@ -130,5 +132,6 @@ I intend to implement the following features before I feel confident releasing S
 - Pitch envelopes for both oscillators
 - Legato mode for all envelopes
 - A more performant saturation algorithm (hyperbolic tangent is too slow)
+- Some form of amplitude normalization for the mouth waveform (its peak value is inconsistent for different sync values)
 
 Until then, have fun replicating the nonsense above in your synthesizer of choice!
