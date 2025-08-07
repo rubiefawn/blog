@@ -9,9 +9,8 @@
     "targetPath" "css/main.css"
     "transpiler" "dartsass"
     "vars" site.Params.styles
-    "includePaths" (slice "node_modules/bootstrap/scss")
   }}
-	{{ with . | css.Sass $opts }}
+	{{ with . | toCSS $opts }}
 		{{ .Content | safe.CSS }}
 	{{ end }}
 {{ end }}
