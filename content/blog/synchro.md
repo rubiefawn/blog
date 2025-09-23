@@ -10,7 +10,7 @@ This post chronicles the background and rationale for my amateur development of 
 
 Back in 2013, I was playing around with a demo copy of Native Instruments FM8. I found an interesting family of sounds produced by modulating a sine wave with one of the "Nth Formant" waveforms pitched several octaves down. The problem with FM8 is that each of these formant waveforms are discrete, and I wanted to blend between them. Also FM8 costs money, and I was a literal child with no income. lmao.
 
-I got my hands on a less-than-legal copy of the now defunct Flowstone (identical to FL Studio's [SynthMaker](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Synthmaker.htm)) and used it to make a really horrible 32-bit VST2 plugin named "Karnoid". Unfortunately, I can't find the exported VST2, nor do I have the Flowstone project file (and even if I did, Flowstone doesn't seem to exist anymore, so I'm not sure how I would even open it).
+I got my hands on a copy of the now defunct Flowstone (identical to FL Studio's [SynthMaker](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Synthmaker.htm)) and used it to make a really horrible 32-bit VST2 plugin named "Karnoid". Unfortunately, I can't find the exported VST2, nor do I have the Flowstone project file (and even if I did, Flowstone doesn't seem to exist anymore, so I'm not sure how I would even open it).
 
 ![Karnoid Free 1.0 Beta](/images/karnoid-free-beta.jpg)
 
@@ -132,6 +132,5 @@ I intend to implement the following features before I feel confident releasing S
 - Pitch envelopes for both oscillators
 - Legato mode for all envelopes
 - A more performant saturation algorithm (hyperbolic tangent is too slow)
-- Some form of amplitude normalization for the mouth waveform (its peak value is inconsistent for different sync values)
 
 Until then, have fun replicating the nonsense above in your synthesizer of choice!

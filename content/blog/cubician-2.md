@@ -11,17 +11,17 @@ tags = ["music","music production","cubician"]
 
 ![Cubician II album art](/images/cubician-ii.jpg)
 
-This short album is entirely old music that I have taken time to polish up. Here's some information about the songs:
+This short album is entirely old music that I have taken time to polish up. Here's some trivia about the songs:
 
 ## [Liquid Starlight](https://iansannar.bandcamp.com/track/liquid-starlight)
 
-*Liquid Starlight* was originally uploaded to my old Soundcloud on 2014-03-01 (over a decade ago!). I originally created all the synthesizer sounds using ZynAddSubFX in LMMS, with liberal use of a specific parameter that allowed for randomization of different wave harmonics per-note. This helped each note sound slightly different, which helped the synth sound like water droplets. The version of ZynAddSubFX embedded in LMMS has the most convoluted user interface I have ever laid eyes on, so I have no idea how to replicate this. I will update this post if I ever do.
+*Liquid Starlight* was originally uploaded to my old Soundcloud on 2014-03-01 (over a decade ago!). I originally created all the synthesizer sounds using ZynAddSubFX in LMMS, with liberal use of a specific parameter that allowed for randomization of different wave harmonics per-note. This helped each note sound slightly different, which helped the synth sound like water droplets. For the remake, I opted for a more tight and consistent sound.
 
 If you dare, you can listen to an archive of that [old version](https://on.soundcloud.com/CTeewPBPhQWm2hV39) on Soundcloud.
 
 ## [Cured More than The Malady](https://iansannar.bandcamp.com/track/cured-more-than-the-malady)
 
-This song was originally released on YouTube on 2017-08-29. At the time, I was deeply unhappy with my character, and was trying to fix myself using religion. This approach was deeply flawed, and in an attempt to "cure" all my flaws, I ended up rejecting my entire identity instead. When I initially released the song, I understood that this was harmful, but thought that it was necessary for my personal growth, spiritual salvation, et cetera. Of course, that was all total nonsense, and after living like that for three years, I came to my senses and realized how unhealthy that mindset was. There is no "cure", only empathy and hard work. I accept and love myself.
+This song was originally released on YouTube on 2017-08-29. At the time, I was deeply unhappy with myself, and thought I could erase my flaws through religion. When I wrote this song, I had yet to realize that drowning myself in piety was not a healthy or long-term solution, but naïvely thought that my damaged self-image was a necessary evil in the process of spiritual purification or whatever. I thought I had simply "cured more than the malady". I have since learned that miracles are no replacement for hard work or self-love. Go to therapy!
 
 The [original YouTube upload](https://youtu.be/MUi-GRBpsGw) is available, but unlisted.
 
@@ -29,11 +29,11 @@ The [original YouTube upload](https://youtu.be/MUi-GRBpsGw) is available, but un
 
 The story behind this song is unfathomably cringe. When I was in high school, I had made friends with this girl, and we would eat lunch together and send each other tumblr posts. I was infatuated with what I now recognize was just gender envy (I wanted to look like her), but since I didn't have the vocabulary for that at the time, I assumed my obsession was romantic attraction. I never did talk to her about any of this, and instead opted to just write this song and post it on my tumblr with no explanation.
 
-The original tumblr post has been lost to time, but it was likely posted sometime around November 2016.
+The original tumblr post was posted sometime around 2016-11. No, it does not exist anymore, and no, you cannot see it, lol.
 
 ## [Serenity (Max's Version)](https://iansannar.bandcamp.com/track/serenity-maxs-version)
 
-The original version of *Serenity* was a much more energetic EDM-style track. I had written it for my romantic partner at the time, who went by a different name back then. They have changed a lot since I originally wrote *Serenity*, and so I changed their song too. Max's Version is much gentler. I wish I was a gentler person back when Max knew me.
+The original version of *Serenity* was a much more energetic EDM-style track. I had written it for my romantic partner at the time, who went by a different name back then. They have changed a lot since I originally wrote *Serenity*, and so I changed their song too. Max's Version is much gentler than the first arrangement.
 
 I do also plan on releasing a new take on the original EDM-style track, but that one isn't quite ready yet. Perhaps it will be in Cubician III?
 

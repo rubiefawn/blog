@@ -1,6 +1,7 @@
 +++
 title = "Level 15 Holy Dragoon Kain"
 date = "2025-08-12T23:09:52-06:00"
+draft = true
 tags = ["Final Fantasy IV", "Final Fantasy IV: The After Years"]
 +++
 
@@ -19,3 +20,5 @@ In the first phase of the fight, your goal is to survive. You don't need to do a
 In the second phase, start by using a spider silk to slow down false Kain's attacks. Whenever you get hit, heal to full with hi-potions. When you can, get a second spider silk off, as well as hermes sandals. If you have them, use a decoy whenever false Kain jumps, as there is still a small chance his jump attacks can do just over 600 damage, which happens to be your max health at level 15. I only had two decoys, so I had to retry the fight a couple times, as I got one-shot by jump attacks.
 
 I wish I knew more of the game internals in order to give some solid numbers such as minimum required defense as well as where to obtain decoys in bulk, since with enough decoys this fight is a cakewalk. If I ever obtain such information, I'll update this post. Until then, enjoy this purely anectodal strategy.
+
+**Edit:** A friend asked if I had used the 'Defend' action at all. I am a bit embarassed to admit that I had not. I'll update this in the future when I give that a try.
