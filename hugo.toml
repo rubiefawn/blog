@@ -3,6 +3,7 @@ languageCode = "en-US"
 title = "rubiefawn.me"
 theme = "saffron"
 capitalizeListTitles = false
+enableRobotsTXT = true
 
 [markup]
 [markup.highlight]
