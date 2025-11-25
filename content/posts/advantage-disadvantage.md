@@ -2,8 +2,8 @@
 title = "Advantage & Disadvantage"
 date = "2025-05-21T15:52:38-06:00"
 description = "What's the deal with advantage and disadvantage mechanics in TTRPGs?"
-
 tags = ["ttrpg","remedy"]
+aliases = ["/blog/advantage-disadvantage"]
 +++
 
 Back in 2019, I started working on a hack of D&D5 in order to address some of the common annoyances that arose during my playgroup at the time. One of those perceived annoyances was D&D5's "advantage" and "disadvantage" mechanic. In that game, you normally roll one d20 to determine the outcome of a check, but various abilities, spells, conditions, and environmental factors can impose "advantage" or "disadvantage". When making a check with either advantage or disadvantage, you instead roll twice, and take the higher (advantage) or lower (disadvantage) result from among them. My frustration with the mechanic at the time was that it couldn't apply more than once. If five different sources all give you advantage, the implied narrative is that your chances of success are more likely, but mechanically it is exactly the same as receiving advantage once.

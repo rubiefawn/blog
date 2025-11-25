@@ -4,6 +4,6 @@
 [submodule "vendor/saffron"]
 	path = vendor/saffron
 	url = https://github.com/rubiefawn/saffron
-[submodule "assets/saffron"]
-	path = assets/saffron
+[submodule "themes/saffron/assets/saffron"]
+	path = themes/saffron/assets/saffron
 	url = https://github.com/rubiefawn/saffron

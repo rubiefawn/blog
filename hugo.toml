@@ -1,24 +1,8 @@
-# Base URL used when generating links to your pages
-# Set to the URL for your site
 baseURL = "https://rubiefawn.me"
-
-# The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
-
-# Basic metadata configuration for your blog.
-title = "rubiefawn.me"
-author = "Fawn Sannar"
-copyright = "Copyright © 2025, Fawn Sannar."
 languageCode = "en-US"
-preserveTaxonomyNames = true
-titleCaseStyle = "none"
-
-# Generate a nice robots.txt for SEO
-enableRobotsTXT = true
-
-# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
+title = "rubiefawn.me"
+theme = "saffron"
+capitalizeListTitles = false
 
 [markup]
 [markup.highlight]
@@ -26,24 +10,3 @@ style = 'base16-snazzy'
 
 [markup.goldmark.renderer]
 unsafe = true
-
-[cache]
-[cache.images]
-dir = ':cacheDir/images'
-
-[permalinks]
-blog = "/blog/:slug"
-tags = "/tag/:slug"
-
-[params]
-dateFormat = "2006-01-02"
-description = "rubiefawn's blog"
-favicon = "images/favicon.png"
-hideMadeWithLine = true
-title = "rubiefawn.me"
-
-# These "images" are used for the structured data templates. This will show up, when
-# services like Twitter or Slack want to generate a preview of a link to your site.
-# See https://gohugo.io/templates/internal#twitter-cards and
-# https://gohugo.io/templates/internal#open-graph.
-images = ["images/share.png"]

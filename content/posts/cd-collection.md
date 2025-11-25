@@ -1,8 +1,9 @@
 +++
 title = "CD Collection"
 date = "2025-04-14T21:47:00-06:00"
-lastmod = "2025-07-31T20:56:00-06:00"
+lastmod = "2025-11-25T13:28:28-07:00"
 tags = ["music", "physical media", "ipod", "jellyfin"]
+aliases = ["/blog/cd-collection"]
 +++
 
 I have been cultivating a growing collection of CDs. I don't have a convenient CD player, so I've been ripping them and putting their music on my modded iPod Classic, as well as my own Jellyfin media server. But why?
@@ -13,9 +14,9 @@ I find that I now listen to full albums rather than cherry-picking individual so
 
 Benn Jordan's [Why Spotify Will Ultimately Fail](https://youtu.be/gDfNRWsMRsU) and [Spotify's Phony War On Bots](https://youtu.be/kVY7-Ti77UQ) are excellent videos that explore the unsavory details behind the music streaming business model (not just Spotify). There is no better time to take control of your music; it sounds better without corporate greed.
 
-# Converting FLAC to ALAC
+## Converting FLAC to ALAC
 
-The iPod Classic is not capable of playing FLAC audio files (at least, not without [Rockbox](https://www.rockbox.org). In order to sync my FLAC CD rips to my iPod, I have to convert them to Apple's ALAC format. To do this, I use the all-powerful [ffmpeg](https://ffmpeg.org):
+The iPod Classic is not capable of playing FLAC audio files (at least, not without [Rockbox](https://www.rockbox.org)). In order to sync my FLAC CD rips to my iPod, I have to convert them to Apple's ALAC format. To do this, I use the all-powerful [ffmpeg](https://ffmpeg.org):
 
 ```sh
 ffmpeg -i $INPUT_FLAC -map 0:a -acodec alac $OUTPUT_M4A
@@ -26,17 +27,18 @@ Since I'm typically converting an entire CD's worth of files at once, I use the 
 ```sh
 ls **/*.flac
 | insert out {|it| $it.name | str replace "flac" "m4a"}
-| each {|it| ffmpeg -i $it.name -map 0:a -acodec alac $it.out }
+| each {|it| ffmpeg -i $it.name -map 0:a -acodec alac $it.out}
 ```
 
 The shell used here is [nushell](https://www.nushell.sh), but other shells can do the same thing (`find -exec` in POSIX, `Get-Item -Recurse | ForEach-Object` in Powershell, and so on). Or you could just install Rockbox on the iPod in order to play FLAC files directly, and save yourself the trouble of maintaining two copies of your music library, lmao
 
-It's worth noting that converting to ALAC seems to strip most of the metadata tags, which seems to be the result of some Apple nonsense [ffmpeg doesn't account for](https://trac.ffmpeg.org/ticket/2798). I've been using [mp3tag](https://www.mp3tag.de) to import metadata from [musicbrainz](https://musicbrainz.org) both before and after converting to ALAC, but I'd prefer to only do this once. I've also heard that [atomicparsely](https://github.com/wez/atomicparsley) can help with this sort of thing, but I haven't investigated that yet. I'll update this once I figure out how to handle this.
+It's worth noting that converting to ALAC seems to strip most of the metadata tags, which seems to be the result of some Apple nonsense [ffmpeg doesn't account for](https://trac.ffmpeg.org/ticket/2798). I've been using [mp3tag](https://www.mp3tag.de) to import metadata from [musicbrainz](https://musicbrainz.org) and then bulk copy/paste the tags from the FLAC to the ALAC files, but I'd prefer to only do this once through the command line (mp3tag is GUI-only). I've also heard that [atomicparsely](https://github.com/wez/atomicparsley) can help with this sort of thing, but I haven't investigated that yet. I'll update this once I figure out how to handle this.
 
 Below is a list of all of the CDs I have collected so far, updated as needed. Happy listening!
 
 - [ABBA — Arrival](https://musicbrainz.org/release-group/e464e167-83ab-3b59-88bd-262cf552056e)
 - [Arctic Monkeys — AM](https://musicbrainz.org/release-group/a348ba2f-f8b3-4686-b928-e63d8d94d543)
+- [Beach House — Bloom](https://musicbrainz.org/release-group/f1390eec-a192-4d96-9943-bbc42a819588)
 - [Billie Eilish — WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?](https://musicbrainz.org/release-group/72375978-a9a1-4254-b957-85565c716b7e)
 - [Billie Eilish — HIT ME HARD AND SOFT](https://musicbrainz.org/release-group/02a544b3-0459-42c7-bd9c-047162e7b67a)
 - [boygenius — the record](https://musicbrainz.org/release-group/1339f18d-220a-4405-8ae9-e52993b1ef70)
@@ -49,6 +51,7 @@ Below is a list of all of the CDs I have collected so far, updated as needed. Ha
 - [Charli xcx — brat](https://musicbrainz.org/release-group/e0fdb431-0109-420d-8a37-f99eaeb4d671)
 - [Cigarettes After Sex — Cigarettes After Sex](https://musicbrainz.org/release-group/90a85020-515c-427e-9a59-5cc4dbcac0e3)
 - [Cigarettes After Sex — Cry](https://musicbrainz.org/release-group/21759bba-54bc-4357-8f17-a6bcd50e0aa3)
+- [CHVRCHES — The Bones of What You Believe (10 year anniversary special edition)](https://musicbrainz.org/release-group/b2cbaa83-cb77-4961-8ca3-816b24e5204f)
 - [CHVRCHES — Love is Dead](https://musicbrainz.org/release-group/d4ae1ef3-2694-4cf9-be55-730818b60ba9)
 - [Clairo — Charm](https://musicbrainz.org/release-group/6fb46378-9cb7-4693-b76d-a62f2cc09214)
 - [The Crane Wives — Coyote Stories](https://musicbrainz.org/release-group/252f9f0e-6f10-41fd-a3b0-5e4d294315fd)
@@ -61,11 +64,13 @@ Below is a list of all of the CDs I have collected so far, updated as needed. Ha
 - [Foster the People — Torches](https://musicbrainz.org/release-group/535748f7-5b3d-4a2a-8f9c-bd8baa587239)
 - [Hozier — Unreal Unearth](https://musicbrainz.org/release-group/7f7d47f8-a97b-420b-b2f8-c3dfd6ca505c)
 - [Hozier — Hozier](https://musicbrainz.org/release-group/06af18b0-1f97-4282-8a4d-af53ae8d9377)
+- [Hozier — Wasteland, Baby!](https://musicbrainz.org/release-group/29cffbed-9ae1-4e75-be82-6058c7e9e9b4)
 - [John Williams — Star Wars: The Force Awakens](https://musicbrainz.org/release-group/405fd3c5-0a45-456a-b853-6f734d3b57aa)
 - [John Williams — Star Wars: The Last Jedi](https://musicbrainz.org/release/ea9f7125-f7aa-4231-84a3-97729a78e1ab)
 - [Joss Stone — Mind Body & Soul](https://musicbrainz.org/release-group/aa47a96b-f119-3174-b5df-aee7d1bb481f)
 - [Keane — Hopes and Fears](https://musicbrainz.org/release/904616d9-0eca-4313-8dee-800fe5d27b0b)
 - [Magdalena Bay — Mercurial World](https://musicbrainz.org/release-group/fda72ebb-16e5-4a19-8be5-8e41906e3c86)
+- [Maroon 5 — Songs About Jane](https://musicbrainz.org/release-group/93d5a1d1-73c0-34d3-b7f1-49473c48face)
 - [Mazzy Star — So Tonight That I Might See](https://musicbrainz.org/release-group/2863caa0-14e9-3016-83e4-4f0cdab55f4f)
 - [Mitski — Laurel Hell](https://musicbrainz.org/release-group/f99a6b54-900b-4f17-bdcf-451639873b5d)
 - [Mother Mother — Grief Chapter](https://musicbrainz.org/release-group/c50b7be6-b92a-4bd3-8752-d082da8f8358)

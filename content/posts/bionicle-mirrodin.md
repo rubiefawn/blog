@@ -2,9 +2,7 @@
 title = "Bionicle, Mirrodin, and God"
 date = "2025-04-13T22:54:07-06:00"
 draft = true
-
 description = "What do you do when god is real, is a robot, and won't save you?"
-
 tags = ["Bionicle","Magic the Gathering"]
 +++
 
