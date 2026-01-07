@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Inter+Tight:ital,wght@0,900;1,900&display=swap');
+
+:root {
+	--theme-font-sans-serif: 'Atkinson Hyperlegible Next';
+	--theme-font-display: 'Inter Tight';
+	--theme-font-monospace: 'Cascadia Code';
+	font-family: var(--theme-font-sans-serif);
+	font-size: var(--lg1-rem);
+}
+
+body {
+	display: grid;
+	grid-template-columns: [full-start] 1fr [main-start] minmax(0, 68ch) [main-end] 1fr [full-end];
+}
+
+main, header, footer { grid-column: main }
+
+header {
+	text-align: center;
+	margin: var(--xl-rem);
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none
+}
+
+nav a { text-transform: lowercase }
+nav ul {
+	display: flex;
+	justify-content: center;
+	gap: var(--md-rem);
+	padding-inline: 0;
+	margin: 0;
+	list-style: '/';
+}
+
+h1, h2, h3, h4, h5, h6 { letter-spacing: -2% }
+code, kbd, pre, samp { font-size: 95% }

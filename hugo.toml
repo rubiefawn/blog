@@ -1,7 +1,7 @@
 baseURL = "https://rubiefawn.me"
 languageCode = "en-US"
 title = "rubiefawn.me"
-theme = "saffron"
+theme = "saffron-hugo"
 capitalizeListTitles = false
 enableRobotsTXT = true
 
