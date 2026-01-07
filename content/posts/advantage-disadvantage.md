@@ -23,15 +23,7 @@ Some time afterwards, I read [Wastoid and the unwritten rules of rolling](https:
 > - Rolling with advantage (chance of failure but it's unlikely)
 > - Auto-success (You can't roll for this you don't even need to as you already know the outcome) 
 
-I've played a handful of systems (at the time of writing, Mouse Guard, Fantasy Flight's Star Wars, D&D5, Monster of the Week) and agree that LootLootLore's observation is applicable even to games like Fantasy Flight's Star Wars that use custom dice pools. I currently provide a clarified version of this abstraction within the rules of Remedy:
-
-> The difficulty of any challenge can be described by one of the following five categories:
-> - Impossible: No check is required, failure is certain.
-> - Disadvantage: Failure is likely, but not certain.
-> - Normal: Neither success nor failure are certain.
-> - Advantage: Success is likely, but not certain.
-> - Trivial: No check is required, success is certain.
-> Not all challenges warrant a check, and even challenges that do may have a more interesting solution than consulting the dice.
+I've played a handful of systems (at the time of writing, Mouse Guard, Fantasy Flight's Star Wars, D&D5, Monster of the Week) and agree that LootLootLore's observation is applicable even to games like Fantasy Flight's Star Wars that use custom dice pools.
 
 This helped me pinpoint why the advantage/disadvantage mechanic was so bothersome to me all those years ago. The problem wasn't that the mechanic didn't stack, it was that the way the game was being run cultivated a playstyle in which the mechanic was more relevant than it ever should have been. We were rolling for everything instead of asking if a check was necessary or even made sense. Since making a check was assumed to be necessary, we had to find a way to compress both kinds of impossible into the realm of potential check results. The dice were a hammer, and every challenge a nail. I still have a mountain of criticism for D&D5, but its advantage and disadvantage mechanic is perfectly fine, actually.
 
