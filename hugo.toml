@@ -4,6 +4,7 @@ title = "rubiefawn.me"
 theme = "saffron-hugo"
 capitalizeListTitles = false
 enableRobotsTXT = true
+enableGitInfo = true
 
 [markup]
 [markup.highlight]

@@ -1,7 +1,6 @@
 +++
 title = "CD Collection"
 date = "2025-04-14T21:47:00-06:00"
-lastmod = "2025-11-25T13:28:28-07:00"
 tags = ["music", "physical media", "ipod", "jellyfin"]
 aliases = ["/blog/cd-collection"]
 +++
@@ -24,13 +23,13 @@ ffmpeg -i $INPUT_FLAC -map 0:a -acodec alac $OUTPUT_M4A
 
 Since I'm typically converting an entire CD's worth of files at once, I use the following command:
 
-```sh
+```nu
 ls **/*.flac
 | insert out {|it| $it.name | str replace "flac" "m4a"}
 | each {|it| ffmpeg -i $it.name -map 0:a -acodec alac $it.out}
 ```
 
-The shell used here is [nushell](https://www.nushell.sh), but other shells can do the same thing (`find -exec` in POSIX, `Get-Item -Recurse | ForEach-Object` in Powershell, and so on). Or you could just install Rockbox on the iPod in order to play FLAC files directly, and save yourself the trouble of maintaining two copies of your music library, lmao
+The shell used here is [nushell](https://www.nushell.sh), but other shells can do the same thing ({{< highlight sh "hl_inline=true" >}}find -exec{{< /highlight >}} in POSIX, {{< highlight ps1 "hl_inline=true" >}}Get-Item -Recurse | ForEach-Object{{< /highlight >}} in Powershell, and so on). Or you could just install Rockbox on the iPod in order to play FLAC files directly, and save yourself the trouble of maintaining two copies of your music library, lmao.
 
 It's worth noting that converting to ALAC seems to strip most of the metadata tags, which seems to be the result of some Apple nonsense [ffmpeg doesn't account for](https://trac.ffmpeg.org/ticket/2798). I've been using [mp3tag](https://www.mp3tag.de) to import metadata from [musicbrainz](https://musicbrainz.org) and then bulk copy/paste the tags from the FLAC to the ALAC files, but I'd prefer to only do this once through the command line (mp3tag is GUI-only). I've also heard that [atomicparsely](https://github.com/wez/atomicparsley) can help with this sort of thing, but I haven't investigated that yet. I'll update this once I figure out how to handle this.
 
