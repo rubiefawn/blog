@@ -8,7 +8,29 @@ enableGitInfo = true
 
 [markup]
 [markup.highlight]
-style = 'base16-snazzy'
+style = "base16-snazzy"
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+  [[menus.main]]
+    name = "Posts"
+    pageRef = "/posts"
+    weight = 20
+  [[menus.main]]
+    name = "Tags"
+    pageRef = "/tags"
+    weight = 30
+  [[menus.main]]
+    name = "Codeberg"
+    url = "https://codeberg.org/rubiefawn"
+    weight = 40
+  [[menus.main]]
+    name = "Github"
+    url = "https://github.com/rubiefawn"
+    weight = 50
