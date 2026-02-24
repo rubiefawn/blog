@@ -8,7 +8,7 @@ aliases = ["/blog/cubician-ii"]
 
 *Cubician II* is finally live on all major streaming platforms: [Spotify](https://open.spotify.com/album/4vWfsHfTY9Hma2PNbQIHCF), [Apple Music](https://music.apple.com/us/album/cubician-ii-ep/1808807634), [YouTube](https://youtube.com/playlist?list=OLAK5uy_ldmVPXTjkm_gE875YZoygnPSSmaKYZYOA), [Amazon Music](https://music.amazon.com/albums/B0F4ZV3L1L), and many more. It is also available for download for free on [Bandcamp](https://iansannar.bandcamp.com/album/cubician-ii).
 
-{{< figure src="/images/cubician-ii.jpg" caption="Cubician II album art" alt="Cubician II album art" width="100%" >}}
+{{< figure src="/images/cubician-ii.avif" caption="Cubician II album art" alt="Cubician II album art" width="100%" >}}
 
 This short album is entirely old music that I have taken time to polish up. Here's some trivia about the songs:
 

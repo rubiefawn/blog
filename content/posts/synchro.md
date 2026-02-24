@@ -14,7 +14,7 @@ Back in 2013, I was playing around with a demo copy of Native Instruments FM8. I
 
 I got my hands on a copy of the now defunct Flowstone (identical to FL Studio's [SynthMaker](https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Synthmaker.htm)) and used it to make a really horrible 32-bit VST2 plugin named "Karnoid". Unfortunately, I can't find the exported VST2, nor do I have the Flowstone project file (and even if I did, Flowstone doesn't seem to exist anymore, so I'm not sure how I would even open it).
 
-{{< figure src="/images/karnoid-free-beta.jpg" caption="Karnoid Free 1.0 Beta" alt="Karnoid Free 1.0 Beta" width="100%" >}}
+{{< figure src="/images/karnoid-free-beta.avif" caption="Karnoid Free 1.0 Beta" alt="Karnoid Free 1.0 Beta" width="100%" >}}
 
 I pestered the developers in the LMMS mailing list to develop it into a native LMMS plugin, and again in a [Github issue](https://github.com/LMMS/lmms/issues/1436). It's a painful read; I was an insufferable teenager and I clearly expected somebody else to do the hard work for me. Yikes! Quoting my past self, this version of Synchro worked as follows:
 
@@ -33,7 +33,7 @@ The maximum amount can be determined with a knob, then a second knob
 determines what percentage of that maximum amount is applied. The second
 knob is the one to use for modulation.
 
-{{< figure src="/images/synchro-waveforms.png" caption="Triangle, circle, and parabolic waveforms" alt="Triangle, circle, and parabolic waveforms" width="100%" >}}
+{{< figure src="/images/synchro-waveforms.avif" caption="Triangle, circle, and parabolic waveforms" alt="Triangle, circle, and parabolic waveforms" width="100%" >}}
 
 For reference, here are some functions that naively (read: will alias) generate these waveforms:
 
